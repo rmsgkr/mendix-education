@@ -1,0 +1,18 @@
+@import './custom-variables';
+
+.remember-id-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.remember-id-box > label{
+    margin-top: 4px !important;
+}
+.remember-id-box > input,
+.remember-id-box >input[type=checkbox]:checked:before,
+.remember-id-box >input[type=checkbox]:before {
+    margin: 0 10px 0 0 !important;
+}
+.remember-id-box >input[type=checkbox]:after {
+    margin: 5px 0 0 4px !important;
+}
